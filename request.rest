@@ -1,0 +1,8 @@
+GET http://localhost:4000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2OTAwMjMwMTh9.1mx7uInH3BQlBmQW5AVP290tdCfUEu_--wCLYrgGUQg
+###
+
+POST http://localhost:4000/login
+Content-Type: 'application/json'
+
+body:{ username: "admin" }
