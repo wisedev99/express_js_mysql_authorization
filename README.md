@@ -1,15 +1,30 @@
 # express_js_mysql_authorization
-Open CDM and write command
-### `git clone https://github.com/wisedev99/express_js_mysql_authorization.git` Clone project
+This is a project for implementing authorization using Express.js and MySQL.
 
-### `cd express_js_mysql_authorization` Go to project folder 
+# Getting Started
+To get started, follow the steps below:
 
-Delete package-lock.json then run command for intall packages
+Clone the project by running the following command in your command line interface:
 
-### `npm install` Install Pakages
+ ``` git clone https://github.com/wisedev99/express_js_mysql_authorization.git ```
+ 
+Navigate to the project folder:
+```cd express_js_mysql_authorization```
 
-For run project
-### `npm run wiseStart` RUN PROJECT
+Delete the package-lock.json file if it exists.
 
-For create secret key fro project in Env: 
-### `require('crypto').randomBytes(64).toString('hex')` Generage secret key
+Install the required packages by running the following command:
+
+```npm install``` 
+
+To run the project, use the following command:
+
+```npm run wiseStart```
+
+In order to create a secret key for the project, you can use the following code snippet in your environment setup:
+
+1. ```node``` 
+
+2. ```require('crypto').randomBytes(64).toString('hex')```
+
+This will generate a random secret key that you can use for your project's configuration.
